@@ -1,0 +1,118 @@
+.mustache{
+    width: 180px;
+    height: 180px;
+    left: 300px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    box-shadow: 
+        150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
+}
+.mustache::before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-left: solid 45px currentColor;
+    border-radius: 0% 0 0 100%;
+    transform: rotate(-40deg);
+    transform-origin: right 210px;
+}
+.mustache::after{
+    content: "";
+    position: absolute;
+    left: 390px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-right: solid 45px currentColor;
+    border-radius: 0% 0 100% 0;
+    transform: rotate(40deg);
+    transform-origin: left 210px;
+}
+.mustache2{
+    width: 180px;
+    height: 180px;
+    left: 300px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    box-shadow: 
+        150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
+    
+}
+.mustache2::before{
+    content: "";
+    position: absolute;
+    left: -261px;
+    top: 211px;
+    width: 53px;
+    height: 30px;
+    border-bottom: solid 45px currentColor;
+    border-left: solid 15px currentColor;
+    border-radius: 0% 0 0 100%;
+    transform: rotate(52deg);
+    transform-origin: right 210px;
+}
+.mustache2::after{
+    content: "";
+    position: absolute;
+    left: 823px;
+    top: 211px;
+    width: 53px;
+    height: 30px;
+    border-bottom: solid 45px currentColor;
+    border-right: solid 15px currentColor;
+    border-radius: 0% 0 100% 0;
+    transform: rotate(-52deg);
+    transform-origin: left 210px;
+}
+.mustache3{
+    width: 180px;
+    height: 180px;
+    left: 300px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    box-shadow: 
+        150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
+    
+}
+.mustache3::before{
+    content: "";
+    position: absolute;
+    left: -151px;
+    top: 95px;
+    width: 26px;
+    height: 15px;
+    border-bottom: solid 15px currentColor;
+    border-radius: 0% 0 0 100%;
+    transform: rotate(134deg);
+    transform-origin: right 100px;
+}
+.mustache3::after{
+    content: "";
+    position: absolute;
+    left: 755px;
+    top: 95px;
+    width: 26px;
+    height: 15px;
+    border-bottom: solid 15px currentColor;
+    border-radius: 0% 0 100% 0;
+    transform: rotate(-134deg);
+    transform-origin: left 100px;
+}
+.beard {
+    left: 510px;
+    top: 500px;
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 150px solid currentColor;
+  }
